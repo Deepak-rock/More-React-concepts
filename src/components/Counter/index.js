@@ -7,6 +7,8 @@ class Counter extends Component {
 
   onIncrement = () => {
     this.setState(prevState => ({count: prevState.count + 1}))
+    this.setState(prevState => ({count: prevState.count + 1}))
+    this.setState(prevState => ({count: prevState.count + 1}))
   }
 
   onDecrement = () => {
